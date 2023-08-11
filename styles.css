@@ -17,10 +17,18 @@ body {
 
 .results {
     display: flex;
+    justify-content: end;
+    align-items: center;
     width: 500px;
     height: 130px;
     background-color: aliceblue;
     margin-bottom: 20px;
+
+    font-size: 100px;
+}
+
+.results h {
+    margin-right: 20px;
 }
 
 .buttons {
@@ -49,7 +57,7 @@ body {
     font-size: 30px;
 }
 
-#zero {
+#b0 {
     width: 250px;
     
 }
