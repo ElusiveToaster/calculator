@@ -6,6 +6,8 @@ const operateBtn = document.querySelector('#operate');
 const clearBtn = document.querySelector('#clear');
 const decimalBtn = document.querySelector('#decimal')
 
+const negativeBtn = document.querySelector('#negative')
+
 
 function addition(firstNum, secondNum) {
     return (parseFloat(firstNum) + parseFloat(secondNum));
@@ -61,6 +63,16 @@ decimalBtn.addEventListener("click", () => {
         nextNum = false;
     } else {
         result.textContent += '.';
+    }
+})
+
+negativeBtn.addEventListener("click", () => {
+    let num = result.textContent;
+    
+    if (result.textContent.split("")[0] == '-') {
+        result.textContent = result.textContent.substring(1);
+    } else {
+    result.textContent = '-' + num;
     }
 })
 
