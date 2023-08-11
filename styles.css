@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+
+}
+
+.results {
+    display: flex;
+    width: 500px;
+    height: 130px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+
+    font-size: 5px;
+}
+
+.functions {
+    display: flex;
+}
+
+.numButtons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    width: 125px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#zero {
+    width: 250px;
+    
+}
